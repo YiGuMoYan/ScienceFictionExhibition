@@ -6,7 +6,7 @@
 - Run program
 
 ## Example
-[Example](!https://yigumoyan.github.io/ScienceFictionExhibition)
+[Example](https://yigumoyan.github.io/ScienceFictionExhibition)
 
 ## Project setup
 ```
