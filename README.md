@@ -1,4 +1,12 @@
-# love
+# Science Fiction Exhibition
+
+## Usage method
+- Open file: `src/components/StoryFirstComponent.vue` and `src/components/StorySecondComponent.vue`
+- Edit array in data
+- Run program
+
+## Example
+[Example](!https://yigumoyan.github.io/ScienceFictionExhibition)
 
 ## Project setup
 ```
