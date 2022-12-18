@@ -11,6 +11,8 @@
 </template>
 
 <script>
+import eventManger from '@/EventManger'
+
 export default {
   name: 'StartButtonComponent',
   methods: {
@@ -18,8 +20,8 @@ export default {
       return new Promise((resolve) => setTimeout(resolve, d))
     },
     async start () {
-      await this.sleep(1000)
-      await this.$router.push('/story')
+      await this.sleep(800)
+      await eventManger.$emit('isPageChange')
     }
   }
 }
